@@ -7,7 +7,7 @@ import Graphics.Nave;
 
 public class Main {
     public static void main(String[] args) { 
-
+// huevos x2
 
         JFrame ventana = new JFrame(" Visible");
         
