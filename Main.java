@@ -18,6 +18,13 @@ public class Main {
         ventana.add(new Menu());
 
         ventana.setVisible(true);
+            
+        Nave nave = new Nave();
+        ventana.add(nave);
+    
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ventana.setVisible(true);
+    }
         
     }
 }
